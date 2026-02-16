@@ -1,0 +1,1597 @@
+[
+  {
+    "id": "engeb_multisettore",
+    "name": "ENGEB Multisettore",
+    "sector": "Multiservizi, Pulizie, Logistica",
+    "sectorCategory": "multiservizi",
+    "issuer": "CONFAEL-FAL / CONFIMITALIA / SNALP",
+    "validFrom": "2022-06-01",
+    "validTo": "2025-05-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0.5,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 1.2,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa per il lavoratore e famiglia",
+        "percentage": 0.8,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "health"
+      },
+      {
+        "name": "Fondo Previdenziale",
+        "description": "Contributo al fondo previdenziale complementare",
+        "percentage": 1.5,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio generico",
+        "baseSalaryMonthly": 1450
+      },
+      {
+        "level": "Livello 2",
+        "description": "Operaio specializzato",
+        "baseSalaryMonthly": 1550
+      },
+      {
+        "level": "Livello 3",
+        "description": "Capo operaio / Coordinatore",
+        "baseSalaryMonthly": 1700
+      },
+      {
+        "level": "Livello 4",
+        "description": "Impiegato amministrativo",
+        "baseSalaryMonthly": 1850
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.5,
+      "socialContributions": 24,
+      "otherBenefits": 2.5
+    },
+    "description": "Contratto per il settore multisettore, applicabile a imprese di multiservizi, pulizie e logistica"
+  },
+  {
+    "id": "engeb_turismo",
+    "name": "ENGEB Turismo e Pubblici Esercizi",
+    "sector": "Turismo, Alberghi, Ristorazione",
+    "sectorCategory": "turismo",
+    "issuer": "CONFAEL-FAL / SNALP",
+    "validFrom": "2023-06-01",
+    "validTo": "2026-05-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale (10,00 euro full-time, 5,00 euro part-time)",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Cameriere, Barista",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Capo cameriere, Barista senior",
+        "baseSalaryMonthly": 1550
+      },
+      {
+        "level": "Livello 3",
+        "description": "Cuoco, Chef",
+        "baseSalaryMonthly": 1750
+      },
+      {
+        "level": "Livello 4",
+        "description": "Direttore di sala, Maître",
+        "baseSalaryMonthly": 1950
+      },
+      {
+        "level": "Livello 5",
+        "description": "Responsabile struttura",
+        "baseSalaryMonthly": 2200
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.5,
+      "socialContributions": 23,
+      "otherBenefits": 3
+    },
+    "description": "Contratto per il settore turismo, alberghi, ristorazione e pubblici esercizi"
+  },
+  {
+    "id": "engeb_commercio",
+    "name": "ENGEB Commercio e Distribuzione",
+    "sector": "Commercio, Distribuzione, Retail",
+    "sectorCategory": "commercio",
+    "issuer": "CONFIMITALIA / CONFAEL",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale (10,00 euro full-time, 5,00 euro part-time)",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Addetto vendite",
+        "baseSalaryMonthly": 1480
+      },
+      {
+        "level": "Livello 2",
+        "description": "Commesso specializzato",
+        "baseSalaryMonthly": 1600
+      },
+      {
+        "level": "Livello 3",
+        "description": "Capo reparto",
+        "baseSalaryMonthly": 1800
+      },
+      {
+        "level": "Livello 4",
+        "description": "Responsabile di negozio",
+        "baseSalaryMonthly": 2000
+      },
+      {
+        "level": "Livello 5",
+        "description": "Direttore di punto vendita",
+        "baseSalaryMonthly": 2300
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.5,
+      "socialContributions": 24.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per il settore commercio, distribuzione e servizi correlati"
+  },
+  {
+    "id": "ebinter_terziario",
+    "name": "EBINTER Terziario, Distribuzione e Servizi",
+    "sector": "Terziario, Distribuzione, Servizi",
+    "sectorCategory": "servizi",
+    "issuer": "Confcommercio / FILCAMS CGIL / FISASCAT CISL",
+    "validFrom": "2023-04-01",
+    "validTo": "2027-03-31",
+    "contributions": [
+      {
+        "name": "Contributo EBINTER",
+        "description": "Contributo per la gestione dell'Ente Bilaterale EBINTER",
+        "percentage": 0.45,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 1.1,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0.7,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "health"
+      },
+      {
+        "name": "Fondo Previdenziale",
+        "description": "Contributo al fondo previdenziale",
+        "percentage": 1.4,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Addetto generico",
+        "baseSalaryMonthly": 1500
+      },
+      {
+        "level": "Livello 2",
+        "description": "Addetto specializzato",
+        "baseSalaryMonthly": 1620
+      },
+      {
+        "level": "Livello 3",
+        "description": "Capo area",
+        "baseSalaryMonthly": 1850
+      },
+      {
+        "level": "Livello 4",
+        "description": "Responsabile di punto",
+        "baseSalaryMonthly": 2050
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.5,
+      "socialContributions": 24.5,
+      "otherBenefits": 2.5
+    },
+    "description": "Contratto EBINTER per il settore terziario, distribuzione e servizi"
+  },
+  {
+    "id": "engeb_turismo_ospitalita",
+    "name": "ENGEB Turismo e Ospitalita",
+    "sector": "Turismo, Ospitalita, Ristorazione",
+    "sectorCategory": "turismo",
+    "issuer": "CONFAEL-FAL / SNALP",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale (10,00 euro full-time, 5,00 euro part-time)",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Cameriere, Barista",
+        "baseSalaryMonthly": 1420
+      },
+      {
+        "level": "Livello 2",
+        "description": "Capo cameriere",
+        "baseSalaryMonthly": 1570
+      },
+      {
+        "level": "Livello 3",
+        "description": "Cuoco",
+        "baseSalaryMonthly": 1800
+      },
+      {
+        "level": "Livello 4",
+        "description": "Responsabile di sala",
+        "baseSalaryMonthly": 2000
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.5,
+      "socialContributions": 23.5,
+      "otherBenefits": 3.5
+    },
+    "description": "Contratto EBNT per il settore turismo"
+  },
+  {
+    "id": "ebil_intersettoriale",
+    "name": "EBIL Intersettoriale",
+    "sector": "Intersettoriale MPMI",
+    "sectorCategory": "servizi",
+    "issuer": "EBIL / CONFIMPRESE ITALIA / FESICA CONFSAL",
+    "validFrom": "2022-01-01",
+    "validTo": "2025-12-31",
+    "contributions": [
+      {
+        "name": "Contributo EBIL",
+        "description": "Contributo per la gestione dell'Ente Bilaterale EBIL",
+        "percentage": 0.35,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0.8,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0.5,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "health"
+      },
+      {
+        "name": "Fondo Previdenziale",
+        "description": "Contributo al fondo previdenziale",
+        "percentage": 1,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio generico",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Operaio specializzato",
+        "baseSalaryMonthly": 1520
+      },
+      {
+        "level": "Livello 3",
+        "description": "Capo operaio",
+        "baseSalaryMonthly": 1680
+      },
+      {
+        "level": "Livello 4",
+        "description": "Impiegato",
+        "baseSalaryMonthly": 1800
+      },
+      {
+        "level": "Livello 5",
+        "description": "Responsabile",
+        "baseSalaryMonthly": 2100
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.5,
+      "socialContributions": 23,
+      "otherBenefits": 2
+    },
+    "description": "Contratto EBIL intersettoriale per piccole e medie imprese"
+  },
+  {
+    "id": "ccnl_artigianato",
+    "name": "Artigianato e Piccole Imprese",
+    "sector": "Artigianato",
+    "sectorCategory": "artigianato",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo Ente Bilaterale",
+        "description": "Contributo per la gestione dell'ente bilaterale artigianato",
+        "percentage": 0.3,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0.7,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0.4,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "health"
+      },
+      {
+        "name": "Fondo Previdenziale Artigianato",
+        "description": "Contributo al fondo previdenziale artigianato",
+        "percentage": 0.9,
+        "amount": 0,
+        "isPercentage": true,
+        "category": "pension"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Apprendista",
+        "baseSalaryMonthly": 1100
+      },
+      {
+        "level": "Livello 2",
+        "description": "Operaio generico",
+        "baseSalaryMonthly": 1380
+      },
+      {
+        "level": "Livello 3",
+        "description": "Operaio specializzato",
+        "baseSalaryMonthly": 1550
+      },
+      {
+        "level": "Livello 4",
+        "description": "Capo operaio",
+        "baseSalaryMonthly": 1750
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.5,
+      "socialContributions": 23.5,
+      "otherBenefits": 1.5
+    },
+    "description": "Contratto per il settore artigianato e piccole imprese industriali"
+  },
+  {
+    "id": "engeb_sanita",
+    "name": "ENGEB Sanita e Assistenza",
+    "sector": "Sanita, Assistenza Socio-Sanitaria",
+    "sectorCategory": "sanita",
+    "issuer": "CONFAEL-FAL / CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale (10,00 euro full-time, 5,00 euro part-time)",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa per il lavoratore e famiglia",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operatore Socio-Sanitario",
+        "baseSalaryMonthly": 1450
+      },
+      {
+        "level": "Livello 2",
+        "description": "Infermiere",
+        "baseSalaryMonthly": 1650
+      },
+      {
+        "level": "Livello 3",
+        "description": "Coordinatore",
+        "baseSalaryMonthly": 1900
+      },
+      {
+        "level": "Livello 4",
+        "description": "Responsabile",
+        "baseSalaryMonthly": 2200
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per il settore sanita e assistenza socio-sanitaria"
+  },
+  {
+    "id": "engeb_agricoli",
+    "name": "ENGEB Operatori Agricoli e Florovivaisti",
+    "sector": "Agricoltura, Florovivaismo",
+    "sectorCategory": "agricoltura",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio Agricolo",
+        "baseSalaryMonthly": 1300
+      },
+      {
+        "level": "Livello 2",
+        "description": "Specializzato",
+        "baseSalaryMonthly": 1500
+      },
+      {
+        "level": "Livello 3",
+        "description": "Caposquadra",
+        "baseSalaryMonthly": 1700
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 1.5
+    },
+    "description": "Contratto per operatori agricoli e florovivaisti"
+  },
+  {
+    "id": "engeb_callcenter",
+    "name": "ENGEB Call Center e Telemarketing",
+    "sector": "Telecomunicazioni, Call Center",
+    "sectorCategory": "telecomunicazioni",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operatore Call Center",
+        "baseSalaryMonthly": 1200
+      },
+      {
+        "level": "Livello 2",
+        "description": "Supervisore",
+        "baseSalaryMonthly": 1450
+      },
+      {
+        "level": "Livello 3",
+        "description": "Team Leader",
+        "baseSalaryMonthly": 1700
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 1.5
+    },
+    "description": "Contratto per operatori call center e telemarketing"
+  },
+  {
+    "id": "engeb_logistica",
+    "name": "ENGEB Logistica e Trasporto Merci",
+    "sector": "Logistica, Trasporto",
+    "sectorCategory": "logistica",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Magazziniere",
+        "baseSalaryMonthly": 1350
+      },
+      {
+        "level": "Livello 2",
+        "description": "Autista",
+        "baseSalaryMonthly": 1550
+      },
+      {
+        "level": "Livello 3",
+        "description": "Capoturno",
+        "baseSalaryMonthly": 1800
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per logistica e trasporto merci"
+  },
+  {
+    "id": "engeb_pubblica",
+    "name": "ENGEB Dipendenti Aziende Enti Pubblici",
+    "sector": "Pubblica Amministrazione",
+    "sectorCategory": "pubblica",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Impiegato",
+        "baseSalaryMonthly": 1650
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile",
+        "baseSalaryMonthly": 1950
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per dipendenti aziende enti pubblici"
+  },
+  {
+    "id": "engeb_doppiaggio",
+    "name": "ENGEB Settore Doppiaggio",
+    "sector": "Audiovisivo, Doppiaggio",
+    "sectorCategory": "audiovisivo",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Tecnico Audio",
+        "baseSalaryMonthly": 1500
+      },
+      {
+        "level": "Livello 2",
+        "description": "Doppiatore",
+        "baseSalaryMonthly": 1800
+      },
+      {
+        "level": "Livello 3",
+        "description": "Direttore di Doppiaggio",
+        "baseSalaryMonthly": 2200
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per il settore doppiaggio"
+  },
+  {
+    "id": "engeb_edilizia",
+    "name": "ENGEB Edilizia e Affini",
+    "sector": "Edilizia, Costruzioni",
+    "sectorCategory": "edilizia",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio Generico",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Operaio Specializzato",
+        "baseSalaryMonthly": 1650
+      },
+      {
+        "level": "Livello 3",
+        "description": "Caposquadra",
+        "baseSalaryMonthly": 1950
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per edilizia e affini"
+  },
+  {
+    "id": "engeb_igiene",
+    "name": "ENGEB Igiene Ambientale",
+    "sector": "Igiene Ambientale, Pulizie",
+    "sectorCategory": "igiene",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio Pulizie",
+        "baseSalaryMonthly": 1250
+      },
+      {
+        "level": "Livello 2",
+        "description": "Specializzato",
+        "baseSalaryMonthly": 1450
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile Turno",
+        "baseSalaryMonthly": 1700
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 1.5
+    },
+    "description": "Contratto per igiene ambientale"
+  },
+  {
+    "id": "engeb_mobilita",
+    "name": "ENGEB Mobilità e Trasporto",
+    "sector": "Mobilità, Trasporto Pubblico",
+    "sectorCategory": "mobilita",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Conducente",
+        "baseSalaryMonthly": 1500
+      },
+      {
+        "level": "Livello 2",
+        "description": "Capolinea",
+        "baseSalaryMonthly": 1750
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile Turno",
+        "baseSalaryMonthly": 2000
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per mobilità e trasporto"
+  },
+  {
+    "id": "engeb_studi_professionali",
+    "name": "ENGEB Studi Professionali",
+    "sector": "Servizi Professionali",
+    "sectorCategory": "servizi",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Impiegato Amministrativo",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Specializzato",
+        "baseSalaryMonthly": 1700
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile",
+        "baseSalaryMonthly": 2100
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per studi professionali"
+  },
+  {
+    "id": "engeb_pmi",
+    "name": "ENGEB Piccola Media Industria",
+    "sector": "Piccola Media Industria",
+    "sectorCategory": "industria",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio Generico",
+        "baseSalaryMonthly": 1350
+      },
+      {
+        "level": "Livello 2",
+        "description": "Operaio Specializzato",
+        "baseSalaryMonthly": 1600
+      },
+      {
+        "level": "Livello 3",
+        "description": "Caposquadra",
+        "baseSalaryMonthly": 1900
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per piccola media industria"
+  },
+  {
+    "id": "engeb_vigilanza",
+    "name": "ENGEB Vigilanza e Servizi Fiduciari",
+    "sector": "Vigilanza, Sicurezza",
+    "sectorCategory": "sicurezza",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Vigilante",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Caposquadra",
+        "baseSalaryMonthly": 1650
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile Turno",
+        "baseSalaryMonthly": 1950
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per vigilanza e servizi fiduciari"
+  },
+  {
+    "id": "engeb_barbieri",
+    "name": "ENGEB Barbieri e Parrucchieri",
+    "sector": "Estetica, Barbieri",
+    "sectorCategory": "estetica",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Apprendista",
+        "baseSalaryMonthly": 1100
+      },
+      {
+        "level": "Livello 2",
+        "description": "Operaio",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 3",
+        "description": "Maestro",
+        "baseSalaryMonthly": 1700
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 1.5
+    },
+    "description": "Contratto per barbieri e parrucchieri"
+  },
+  {
+    "id": "engeb_energia",
+    "name": "ENGEB Aziende Luce e Gas",
+    "sector": "Energia, Utilities",
+    "sectorCategory": "energia",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio",
+        "baseSalaryMonthly": 1450
+      },
+      {
+        "level": "Livello 2",
+        "description": "Specializzato",
+        "baseSalaryMonthly": 1700
+      },
+      {
+        "level": "Livello 3",
+        "description": "Caposquadra",
+        "baseSalaryMonthly": 2000
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per aziende luce e gas"
+  },
+  {
+    "id": "engeb_trasporti",
+    "name": "ENGEB Trasporto e Spedizione Merci",
+    "sector": "Trasporto, Spedizione",
+    "sectorCategory": "logistica",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Autista",
+        "baseSalaryMonthly": 1500
+      },
+      {
+        "level": "Livello 2",
+        "description": "Capoturno",
+        "baseSalaryMonthly": 1800
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile Magazzino",
+        "baseSalaryMonthly": 2100
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per trasporto e spedizione merci"
+  },
+  {
+    "id": "engeb_lavoro_domestico",
+    "name": "ENGEB Lavoro Domestico",
+    "sector": "Lavoro Domestico, Cura Persone",
+    "sectorCategory": "domestico",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Collaboratore Domestico",
+        "baseSalaryMonthly": 1200
+      },
+      {
+        "level": "Livello 2",
+        "description": "Badante",
+        "baseSalaryMonthly": 1450
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile",
+        "baseSalaryMonthly": 1700
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 1.5
+    },
+    "description": "Contratto per lavoro domestico"
+  },
+  {
+    "id": "engeb_metalmeccanica",
+    "name": "ENGEB Metalmeccanica Industria",
+    "sector": "Metalmeccanica, Industria",
+    "sectorCategory": "industria",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Operaio Generico",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Operaio Specializzato",
+        "baseSalaryMonthly": 1700
+      },
+      {
+        "level": "Livello 3",
+        "description": "Caposquadra",
+        "baseSalaryMonthly": 2050
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per metalmeccanica industria"
+  },
+  {
+    "id": "engeb_ormeggiatori",
+    "name": "ENGEB Ormeggiatori e Barcaioli",
+    "sector": "Porti, Ormeggiatori",
+    "sectorCategory": "portuale",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Ormeggiatore",
+        "baseSalaryMonthly": 1500
+      },
+      {
+        "level": "Livello 2",
+        "description": "Barcaiolo",
+        "baseSalaryMonthly": 1750
+      },
+      {
+        "level": "Livello 3",
+        "description": "Caposquadra",
+        "baseSalaryMonthly": 2050
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per ormeggiatori e barcaioli"
+  },
+  {
+    "id": "engeb_personale_artistico",
+    "name": "ENGEB Personale Artistico",
+    "sector": "Spettacolo, Arti",
+    "sectorCategory": "spettacolo",
+    "issuer": "CONFIMITALIA",
+    "validFrom": "2023-01-01",
+    "validTo": "2026-12-31",
+    "contributions": [
+      {
+        "name": "Contributo ENGEB",
+        "description": "Contributo per la gestione dell'Ente Bilaterale",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "bilateral"
+      },
+      {
+        "name": "COASCO",
+        "description": "Cassa per l'Assistenza e Previdenza Complementare",
+        "percentage": 0,
+        "amount": 10,
+        "isPercentage": false,
+        "category": "pension"
+      },
+      {
+        "name": "Assistenza Sanitaria Integrativa",
+        "description": "Copertura sanitaria integrativa",
+        "percentage": 0,
+        "amount": 15,
+        "isPercentage": false,
+        "category": "health"
+      }
+    ],
+    "levels": [
+      {
+        "level": "Livello 1",
+        "description": "Tecnico Spettacolo",
+        "baseSalaryMonthly": 1400
+      },
+      {
+        "level": "Livello 2",
+        "description": "Artista",
+        "baseSalaryMonthly": 1800
+      },
+      {
+        "level": "Livello 3",
+        "description": "Responsabile Produzione",
+        "baseSalaryMonthly": 2200
+      }
+    ],
+    "additionalCosts": {
+      "tfr": 6.91,
+      "socialContributions": 8.5,
+      "otherBenefits": 2
+    },
+    "description": "Contratto per personale artistico"
+  }
+]

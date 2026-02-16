@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1768751569720,
+      "tag": "0000_classy_saracen",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1768751675791,
+      "tag": "0001_minor_zemo",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1768848301040,
+      "tag": "0002_unique_wallow",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1769888003664,
+      "tag": "0003_shocking_living_lightning",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1769889703831,
+      "tag": "0004_omniscient_spiral",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1769889870480,
+      "tag": "0005_thick_quasimodo",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1769956033821,
+      "tag": "0006_tricky_harry_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1770000000000,
+      "tag": "0007_app_modules_legal_toolkit_services",
+      "breakpoints": true
+    }
+  ]
+}

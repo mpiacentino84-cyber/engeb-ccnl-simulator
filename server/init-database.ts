@@ -99,8 +99,8 @@ export async function initializeDatabase(): Promise<{
   }
 }
 
-// Esecuzione diretta da CLI
-if (require.main === module) {
+// Esecuzione diretta da CLI (ES modules syntax)
+if (import.meta.url === `file://${process.argv[1]}`) {
   console.log("🚀 Inizializzazione database...\n");
   initializeDatabase()
     .then((result) => {

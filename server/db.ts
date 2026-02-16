@@ -48,16 +48,9 @@ export async function upsertUser(user: InsertUser): Promise<void> {
 
     textFields.forEach(assignNullable);
 
-    if (user.lastSignedIn !== undefined) {
-      values.lastSignedIn = user.lastSignedIn;
-      updateSet.lastSignedIn = user.lastSignedIn;
-    }
     if (user.role !== undefined) {
       values.role = user.role;
       updateSet.role = user.role;
-    } else if (user.openId === ENV.ownerOpenId) {
-      values.role = 'admin';
-      updateSet.role = 'admin';
     }
 
     if (!values.lastSignedIn) {
@@ -68,10 +61,19 @@ export async function upsertUser(user: InsertUser): Promise<void> {
       updateSet.lastSignedIn = new Date();
     }
 
+    if (user.lastSignedIn) {
+      updateSet.lastSignedIn = new Date();
+    }
+
     await db.insert(users).values(values).onDuplicateKeyUpdate({
       set: updateSet,
     });
-  } catch (error) {
+  } catch (error: any) {
+    // Handle case where table doesn't exist yet (database not initialized)
+    if (error?.code === 'ER_NO_SUCH_TABLE') {
+      console.warn("[Database] users table doesn't exist yet - database not initialized");
+      return;
+    }
     console.error("[Database] Failed to upsert user:", error);
     throw error;
   }
@@ -84,9 +86,22 @@ export async function getUserByOpenId(openId: string) {
     return undefined;
   }
 
-  const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
-
-  return result.length > 0 ? result[0] : undefined;
+  try {
+    const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
+    return result.length > 0 ? result[0] : undefined;
+  } catch (error: any) {
+    // Handle case where table doesn't exist yet (database not initialized)
+    if (error?.code === 'ER_NO_SUCH_TABLE') {
+      console.warn("[Database] users table doesn't exist yet - database not initialized");
+      return undefined;
+    }
+    throw error;
+  }
 }
 
 // TODO: add feature queries here as your schema grows.
+export const db = {
+  get: getDb,
+  upsertUser,
+  getUserByOpenId,
+};

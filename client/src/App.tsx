@@ -21,6 +21,7 @@ import ServiceDetail from "./pages/ServiceDetail";
 import MyRequests from "./pages/MyRequests";
 import RequestDetail from "./pages/RequestDetail";
 import AdminRequests from "./pages/AdminRequests";
+import InitDatabase from "./pages/InitDatabase";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -35,8 +36,8 @@ function Router() {
       <Route path={"/my-ccnls"} component={MyCCNL} />
       <Route path={"/share"} component={SharedComparison} />
       <Route path={"/ccnl-database"} component={CCNLDatabase} />
-      <Route path={"/database"} component={CCNLDatabase} />
-      <Route path={"/statistics"} component={Statistics} />
+      <Route path={"/database"} component={CCNLDatabase} />      <Route path={"/statistics"} component={Statistics} />
+      <Route path={"/init-database"} component={InitDatabase} />
 
       {/* Normativa & Prassi */}
       <Route path={"/legal"} component={Legal} />

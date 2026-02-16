@@ -11,6 +11,7 @@ import { toolkitRouter } from "./routers/toolkitRouter";
 import { servicesRouter } from "./routers/servicesRouter";
 import { filesRouter } from "./routers/filesRouter";
 import { aiRouter } from "./routers/aiRouter";
+import { initializeDatabase } from "./init-database";
 
 export const appRouter = router({
     // if you need to use socket.io, read and register route in server/_core/index.ts, all api should start with '/api/' so that the gateway can route correctly
@@ -49,6 +50,14 @@ export const appRouter = router({
 
   // AI (opzionale)
   ai: aiRouter,
+
+  // Database initialization (one-time setup)
+  init: router({
+    database: publicProcedure.mutation(async () => {
+      const result = await initializeDatabase();
+      return result;
+    }),
+  }),
 });
 
 export type AppRouter = typeof appRouter;

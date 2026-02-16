@@ -18,9 +18,13 @@ export async function initializeDatabase(): Promise<{
   try {
     // Step 1: Verifica se il database è già inizializzato
     steps.push("Verifica stato database...");
-    const tables = await db.db
-      .execute("SHOW TABLES")
-      .then((result) => result.rows);
+    const dbInstance = await db.get();
+    if (!dbInstance) {
+      errors.push("Database non disponibile");
+      return { success: false, steps, errors };
+    }
+    const tablesResult: any = await dbInstance.execute("SHOW TABLES");
+    const tables = tablesResult.rows || tablesResult || [];
 
     if (tables.length > 0) {
       steps.push(`Database già inizializzato con ${tables.length} tabelle`);
@@ -81,9 +85,8 @@ export async function initializeDatabase(): Promise<{
 
     // Step 5: Verifica finale
     steps.push("Verifica finale...");
-    const finalTables = await db.db
-      .execute("SHOW TABLES")
-      .then((result) => result.rows);
+    const finalTablesResult: any = await dbInstance.execute("SHOW TABLES");
+    const finalTables = finalTablesResult.rows || finalTablesResult || [];
     steps.push(`✅ Database inizializzato con ${finalTables.length} tabelle`);
 
     return {
